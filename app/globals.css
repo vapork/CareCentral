@@ -70,9 +70,10 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    /* Remove the border or specify a border style that suits your design */
+    /* @apply border; */ /* Comment out or remove this line */
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gray-100 text-gray-900; /* Use valid Tailwind classes for background and text */
   }
 }
