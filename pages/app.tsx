@@ -1,9 +1,14 @@
 // pages/_app.tsx
 import '../app/globals.css';
-import type { AppProps } from 'next/app';
+import React from 'react';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+const AppPage = () => {
+  return (
+    <div>
+      <h1>App Page</h1>
+      {/* Add your content here */}
+    </div>
+  );
+};
 
-export default MyApp;
+export default AppPage;
